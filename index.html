@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./assets/js/active.js"></script>
+</head>
+
+<body>
+    <!-- các thành phần của web size  
+
+    I container
+       1 header : img ,logo , nav
+      2  content :  1 section 1 : text ,ảnh
+                    2 section 2 : video
+                    3 section 3 : ảnh menu
+                    4 section 4 : review quán
+                    5 section 5 : video thực tế
+                    6 section 6 : mở cửa hàng
+                    7 section 7 : list ảnh
+        3 footer
+-->
+    <div id="container">
+        <!-- phần 1  -->
+        <div id="header">
+
+            <div class="navigation">
+                <a href="">
+                    <img src="./assets/logo/logo.png" alt="" class="img-logo">
+                </a>
+                <ul class="nav" id="menu">
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#section1">Out story</a>
+                    </li>
+                    <li>
+                        <a href="#section3">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#section2">Event</a>
+                    </li>
+                    <li>
+                        <a href="#section5">Review</a>
+                    </li>
+                    <li>
+                        <a href="#section7">Q&A</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- làm tới đâY -->
+            <a href="#" class="icon-toggle" id="menu-toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+            </a>
+            <h1 class="text-moon"><img src="./assets/img/text/1.png" alt=""> </h1>
+            <h4 class="text-small">Dẫn lối con tim ngu khờ ,mở cửa cho đôi ta...</h4>
+        </div>
+        <!-- phần 2 -->
+        <div id="content">
+            <!-- section1 -->
+            <div id="section1">
+                <div class="left-glass">
+                    <div class="hd-glass">
+                        <h2>
+                            <p class="nut-glass"><img src="./assets/img/nut5.png" alt=""> “Trăng non” chào bạn <img src="./assets/img/nut5.png" alt=""></p>
+                        </h2>
+                    </div>
+                    <p class="glass-ct">Là những hàng gỗ thông nối dọc, là những chậu sen đá nhỏ nằm yên dưới ánh đèn vàng lơ lửng hoà vào khung trời của buổi chiều tà Sài Gòn… hít một hơi thật sâu và cảm nhận lòng mình đang từ từ mở cửa. Ghé Trăng Non và cùng tụi mình cảm
+                        nhận một vẻ đẹp yên bình mà nơi này mang lại nhé!</p>
+                    <img src="./assets/img/ly1.png" alt="" class="img-glass">
+                </div>
+                <div class="img-right">
+                    <img src="./assets/img/view 3.jpg" alt="">
+                </div>
+            </div>
+            <!-- section2 -->
+            <div id="section2">
+                <div class="hd-glass">
+                    <h1>
+                        <p class="nut-glass"><img src="./assets/img/nut5.png" alt=""> Event <img src="./assets/img/nut5.png" alt=""></p>
+                    </h1>
+                </div>
+                <div class="event-img">
+                    <h2 class="hangtuan">Hàng tuần</h2>
+                    <h4>Trăng non's Accoutic</h4>
+                    <p>Thứ năm và thứ bảy hàng tuần vào lúc 19:30-21:30.</p>
+                </div>
+            </div>
+            <!-- section3  -->
+            <div id="section3">
+                <div class="ct3-left">
+                    <!-- <img src="https://trangnonrooftop.vn/wp-content/uploads/2022/09/Rectangle-10-1.jpg" alt=""> -->
+                    <img width="" src="https://trangnonrooftop.vn/wp-content/uploads/2022/09/Rectangle-10-1.jpg" alt="" class="slider-image">
+                    <img width="" src="./assets/img/customer/7.jpg" alt="" class="slider-image">
+                    <img width="" src="./assets/img/view 3.jpg" alt="" class="slider-image">
+                    <!-- Các ảnh khác -->
+
+                    <div class="slider-navigation">
+                        <div class="arrow left-arrow">&lt;</div>
+                        <div class="arrow right-arrow">&gt;</div>
+                    </div>
+                </div>
+                <div class="ct3-right">
+                    <div class="hd-glass">
+                        <h1>
+                            <p class="nut-glass"><img src="./assets/img/nut5.png" alt=""> Menu <img src="./assets/img/nut5.png" alt=""></p>
+                        </h1>
+
+                    </div>
+                    <ul class="list-menu">
+                        <li>Cocktails</li>
+                        <li>Lager Beers</li>
+                        <li>Ale Beer</li>
+                        <li>Craff Beer</li>
+                        <li>Fruit Beer</li>
+                        <li>Shot</li>
+                        <li>Non-alcoholic drink</li>
+                        <li>Snack & Food</li>
+                    </ul>
+                    <div class="detail-menu">
+
+                        <a href="https://trangnonrooftop.vn/wp-content/uploads/2022/09/TRANG-NON-FIN_compressed_compressed.pdf">Xem menu chi tiết</a>
+                    </div>
+                </div>
+            </div>
+            <!-- section4 -->
+            <div id="section4">
+                <div class="hd-glass">
+                    <h1>
+                        <p class="nut-glass"><img src="./assets/img/nut5.png" alt=""> Q & A <img src="./assets/img/nut5.png" alt=""></p>
+                    </h1>
+                </div>
+                <div class="orders-shop">
+                    <div class="order1-shop">
+                        <div class="order2-shop">
+                            <h3 class="order-hd">1/ Quán còn nhận đặt bàn không ?
+                                <ion-icon class="icon-shop open-text" name="chevron-down-outline"></ion-icon>
+                            </h3>
+                            <p class="order-ct text-mo">Dạ quán nhận đặt bàn trừ thứ 7, chủ nhật, và lễ tết ạ. Mình cho quán xin tên, sđt, số người, giờ đến để quán đặt bàn cho mình nha.</p>
+                        </div>
+                    </div>
+                    <div class="order1-shop">
+                        <div class="order2-shop">
+                            <h3 class="order-hd">2/ Khi nào quán có live?
+                                <ion-icon class="icon-shop open-text" name="chevron-down-outline"></ion-icon>
+                            </h3>
+                            <p class="order-ct text-mo">Dạ quán có live thứ 5, thứ 7 hàng tuần từ 19:30-21:30 ạ.</p>
+                        </div>
+                    </div>
+                    <div class="order1-shop">
+                        <div class="order2-shop">
+                            <h3 class="order-hd">3/ Quán có nhận thanh toán bằng thẻ/momo không?
+                                <ion-icon class="icon-shop open-text" name="chevron-down-outline"></ion-icon>
+                            </h3>
+                            <p class="order-ct text-mo">\Dạ có, quán nhận thanh toán bằng momo, chuyển khoản, thẻ và tiền mặt ạ.</p>
+                        </div>
+                    </div>
+                    <div class="order1-shop">
+                        <div class="order2-shop">
+                            <h3 class="order-hd"> Có được mang chó/mèo vào quán không?
+                                <ion-icon class="icon-shop open-text" name="chevron-down-outline"></ion-icon>
+                            </h3>
+                            <p class="order-ct text-mo">Dạ nếu bé nhỏ thì được ạ. Mình chỉ cần tránh để bé chạy lung tung và giữ vệ sinh giúp quán thôi ạ.</p>
+                        </div>
+                    </div>
+                    <div class="order1-shop">
+                        <div class="order2-shop">
+                            <h3 class="order-hd"> Quán có nhận tổ chức/trang trí tiệc không?
+                                <ion-icon class="icon-shop open-text" name="chevron-down-outline"></ion-icon>
+                            </h3>
+                            <p class="order-ct text-mo">Dạ quán không nhận trang trí/ tổ chức ạ</p>
+                        </div>
+                    </div>
+                    <div class="order1-shop">
+                        <div class="order2-shop">
+                            <h3 class="order-hd"> 6/ Có được mang bánh sinh nhật vào không?
+                                <ion-icon class="icon-shop open-text" name="chevron-down-outline"></ion-icon>
+                            </h3>
+                            <p class="order-ct text-mo">Dạ được ạ.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- section5 -->
+            <div id="section5">
+                <div class="hd-glass">
+                    <h1>
+                        <p class="nut-glass"><img src="./assets/img/nut5.png" alt=""> Review <img src="./assets/img/nut5.png" alt=""></p>
+                    </h1>
+                </div>
+                <div class="st5-replys">
+                    <div class="rp-left">
+                        <img src="./assets/img/mauKH/1.png" alt="">
+                        <h4 class="name-rp">Alvin Xu</h4>
+                        <p class="desc-rp">Quán rooftop siêu rộng. 1 trong những rooftop bar rộng ở Vn mình từng đi, quán có 3 không gian riêng biệt có phía trước sau và bên trên, đồ uống ổn giá cao nhưng hợp lý với không gian.</p>
+                        <h7 class="wat-rp">xem thêm</h7>
+                        <div class="select-rp">
+                            <input name="check-rp" type="radio">
+                            <input name="check-rp" type="radio">
+                            <input name="check-rp" type="radio">
+                            <input name="check-rp" type="radio">
+                        </div>
+                    </div>
+                    <div class="rp-right">
+                        <img src="./assets/img/mauKH/2.png" alt="">
+                        <h3 class="user-rp">4,8</h3>
+                        <h1 class="review-rp">Review Rating</h1>
+                        <div class="stars-rp">
+                            <ion-icon name="star-outline"></ion-icon>
+                            <ion-icon name="star-outline"></ion-icon>
+                            <ion-icon name="star-outline"></ion-icon>
+                            <ion-icon name="star-outline"></ion-icon>
+                            <ion-icon name="star-outline"></ion-icon>
+                        </div>
+                        <h6 class="reader-gg">Đọc để đánh giá google</h6>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <!-- section 6 -->
+        <div id="section6">
+            <div class="img-video">
+                <video src="./assets/video/video.mp4" controls> </video>
+            </div>
+        </div>
+        <!-- section7 -->
+
+        <div id="section7">
+            <div class="hd-glass">
+                <h1>
+                    <p class="nut-glass"><img src="./assets/img/nut5.png" alt=""> Gallery <img src="./assets/img/nut5.png" alt=""></p>
+                </h1>
+            </div>
+            <div class="section7-half">
+                <div class="st-list-img">
+                    <div class="st-img1">
+                        <img src="./assets/img/customer/1.jpg" alt="" class="img-cust">
+                        <div class="overlay">
+                            <h2>Hẹn hò "một mình" ở Trăng Non cũng thú vị lắm nha…</h2>
+                        </div>
+                    </div>
+                    <div class="st-img1">
+                        <img src="./assets/img/customer/2.jpg" alt="" class="img-cust">
+                        <div class="overlay">
+                            <h2>Sài Gòn hôm nay hông có nắng, trời rả rích vài cơn…</h2>
+                        </div>
+                    </div>
+                    <div class="st-img1">
+                        <img src="./assets/img/customer/3.jpg" alt="" class="img-cust">
+                        <div class="overlay">
+                            <h2>Một chiếc rì viu đồ nhắm thiệt xịn xò 🥰❤️ #trangno…</h2>
+                        </div>
+                    </div>
+                    <div class="st-img1">
+                        <img src="./assets/img/customer/4.jpg" alt="" class="img-cust">
+                        <div class="overlay">
+                            <h2>Trong tác phẩm Mùa Lạc của Nguyễn Khải có một đoạn…</h2>
+                        </div>
+                    </div>
+                    <div class="st-img1">
+                        <img src="./assets/img/customer/5.jpg" alt="" class="img-cust">
+                        <div class="overlay">
+                            <h2>Một chiếc vlog với thử thách toàn màu xanh 🌿❤️ #gr…</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="st-list-img">
+                    <div class="st-img1">
+                        <img src="./assets/img/customer/6.jpg" alt="" class="img-cust">
+                        <div class="overlay">
+                            <h2>Trăng Non chăm sóc vườn cây nhỏ bằng sự nhí nhảnh…</h2>
+                        </div>
+                    </div>
+                    <div class="st-img1">
+                        <img src="./assets/img/customer/7.jpg" alt="" class="img-cust">
+                        <div class="overlay">
+                            <h2>Có những ngày Trăng Non bình yên đến thế ...💕 #bìn…</h2>
+                        </div>
+                    </div>
+                    <div class="st-img1">
+                        <img src="./assets/img/customer/8.jpg" alt="" class="img-cust">
+                        <div class="overlay">
+                            <h2>Giữa chốn thành thị ồn ào, tấp nhập, chúng ta luôn…</h2>
+                        </div>
+                    </div>
+                    <div class="st-img1">
+                        <img src="./assets/img/customer/9.jpg" alt="" class="img-cust">
+                        <div class="overlay">
+                            <h2>Lúc đi hết mình lúc về hết buồn nhen mọi người ơi…</h2>
+                        </div>
+                    </div>
+                    <div class="st-img1">
+                        <img src="./assets/img/customer/10.jpg" alt="" class="img-cust">
+                        <div class="overlay">
+                            <h2>“Ê, Trăng Non nhiều đèn gê ha, nhìn lung linh quá…</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- nhúng API Google 8 -->
+
+    </div>
+    <div class="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.955006542285!2d106.69181477394552!3d10.814755258487795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529eb9caaa5d7%3A0x66c65091c8d9552f!2sTr%C4%83ng%20Non%20Rooftop!5e0!3m2!1svi!2s!4v1685181014051!5m2!1svi!2s"
+            width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- phần 2 -->
+    <div id="footer">
+        <div class="box-content">
+            <img src="./assets/logo/logo.png" alt="">
+            <ul class="list-contact">
+                <li>
+                    <ion-icon name="location-outline"></ion-icon>Địa chỉ: 302 Nguyễn Văn Đậu, phường 11, quận Bình Thạnh</li>
+                <li>
+                    <ion-icon name="call-outline"></ion-icon>
+                    086 707 94 22
+                </li>
+                <li>
+                    <ion-icon name="mail-outline"></ion-icon>Tranchinhquang@gmail.com</li>
+                <li>
+                    <ion-icon name="time-outline"></ion-icon>Giờ hoạt động: 16:30-0:30
+                </li>
+            </ul>
+            <div class="icon-sn">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+            </div>
+        </div>
+        <h2 class="footer-content">All rights reserved. Designed by
+            <span>atum.vn</span>
+        </h2>
+    </div>
+    </div>
+
+
+</body>
+
+</html>
