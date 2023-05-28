@@ -11,6 +11,7 @@ html {
 }
 
 #container {
+      overflow: hidden;
     background: url(../img/background1.jpg);
     background-size: contain;
 }
@@ -424,7 +425,7 @@ html {
     width: 800px;
     position: absolute;
     top: 80px;
-    left: 300px;
+    left: 330px;
     box-shadow: 2px 3px 7px #ccc;
 }
 
